@@ -1,0 +1,18 @@
+{
+    "name": "kitzberger/soundtouch-client",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Philipp Kitzberger",
+            "email": "philipp@kitze.net"
+        }
+    ],
+    "require": {
+        "sabinus52/soundtouchapi": "^1.4"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Kitzberger\\BoseSoundtouch\\" : "src/"
+        }
+    }
+}
